@@ -22,7 +22,7 @@ for i in range (1, 4, 1): # Primer bucle for donde decimos que iniciara en 1 y t
                     >>> 1) - Si 
                     >>> 2) - No
                     >>> '''))
-                    if attend < 1 or attend > 3: # Si la variable attend es menor a 1 o mayor a 3 entonces pasamos al bloque except 
+                    if attend < 1 or attend > 2: # Si la variable attend es menor a 1 o mayor a 3 entonces pasamos al bloque except 
                         raise ValueError
                     elif not isinstance(attend, int): # Aqui decimos que si la variable attend almacena otro tipo de dato que no sea entero dara un error y llamamos al bloque except
                         raise TypeError 
